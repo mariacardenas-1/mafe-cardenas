@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import profile from '../../public/assets/profile.png'
+import profile from '../../public/assets/profile1.png'
 import Link from 'next/link'
 import mail from '../../public/assets/correo-electronico.png'
 import linkedin from '../../public/assets/linkedin.png'
