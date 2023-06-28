@@ -10,17 +10,19 @@ const NavBar = () =>{
   const [navbar, setNavbar] = useState(false)
     const menuItems = [
         {
-            slug: 'home',
+            slug: '/',
             name: 'Home'
         },
         {
-            slug: 'contactame',
-            name: 'Contáctame'
+            slug: 'contratame',
+            name: 'Contrátame'
         }
     ]
     return (
         <div className='bg-mafeGray flex justify-between px-8 max-h-3xl min-w-full max-w-full'>
-          <Image className='w-48 h-28' width={400} height={250} src={logo} alt='...'/>
+          <Link href='/' >
+            <Image className='w-48 h-28' width={400} height={250} src={logo} alt='...'/>
+          </Link>
           <div className="lg:hidden">
             <button
               className="p-2 text-gray-700 rounded-md outline-none"

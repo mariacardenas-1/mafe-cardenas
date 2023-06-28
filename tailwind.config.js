@@ -38,6 +38,9 @@ module.exports = {
       },
       margin: {
         'msetenta': '-70px',
+      },
+      fontSize: {
+        '3': '1.3rem'
       }
     },
   },
