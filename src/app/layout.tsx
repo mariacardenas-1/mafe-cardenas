@@ -2,19 +2,12 @@ import './globals.css'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 
-import { Dosis, Indie_Flower, Concert_One, Balsamiq_Sans } from 'next/font/google'
+import { Dosis, Concert_One, Balsamiq_Sans } from 'next/font/google'
  
 const dosis = Dosis({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-dosis',
-})
- 
-const indie_flower = Indie_Flower({
-  subsets: ['latin'],
-  weight: '400',
-  display: 'swap',
-  variable: '--font-indie-flower',
 })
 
 const concert_one = Concert_One({
@@ -38,13 +31,12 @@ export const metadata = {
 }
 
 type Props = {
-  preview?: boolean
   children: React.ReactNode
 }
 
-const Layout = ({ preview, children }: Props) => {
+const Layout = ({ children }: Props) => {
   return (
-    <div className={`${dosis.variable} ${indie_flower.variable} ${concert_one.variable} ${balsamiq_sans.variable} flex shadow-layout flex-col mx-auto justify-between min-h-screen max-w-screen-xl `}>
+    <div className={`${dosis.variable} ${concert_one.variable} ${balsamiq_sans.variable} flex shadow-layout flex-col mx-auto justify-between min-h-screen max-w-screen-xl `}>
       <header className=' w-full mn-h-30'>
         <NavBar />
       </header>

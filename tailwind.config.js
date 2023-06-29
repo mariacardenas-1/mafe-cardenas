@@ -32,7 +32,6 @@ module.exports = {
       },
       fontFamily: {
         dosis: ['var(--font-dosis)'],
-        indie: ['var(--font-indie-flower)'],
         concert: ['var(--font-concert-one)'],
         bal: ['var(--font-balsamiq-sans)'],
       },
