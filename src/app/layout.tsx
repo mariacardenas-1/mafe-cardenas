@@ -34,7 +34,7 @@ type Props = {
   children: React.ReactNode
 }
 
-const Layout = ({ children }: Props) => {
+export default function Layout ({ children }: Props) {
   return (
     <div className={`${dosis.variable} ${concert_one.variable} ${balsamiq_sans.variable} flex shadow-layout flex-col mx-auto justify-between min-h-screen max-w-screen-xl `}>
       <header className=' w-full mn-h-30'>
@@ -50,4 +50,4 @@ const Layout = ({ children }: Props) => {
   )
 }
 
-export default Layout
+// export default Layout
