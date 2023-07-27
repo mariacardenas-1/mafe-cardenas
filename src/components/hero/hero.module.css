@@ -1,0 +1,76 @@
+.hero{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 60px;
+    color: var(--heroText)
+}
+.profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+@media (min-width: 425px) {
+    .profile{
+        width: 300px;
+        height: 300px;
+    }
+    .name{
+        font-size: 50px;
+    }
+}
+.text{
+    text-align: center;
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.description{
+    font-family: 'Pangolin';
+    letter-spacing: 1px;
+    padding: 15px;
+
+}
+.iconBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    min-width: 200px;
+    border-radius: 22px;
+    background-color: var(--primaryButton);
+    border: none;
+    min-height: 45px;
+    color: var(--textButton);
+    font-size: 18px;
+    font-weight: bold;
+}
+.scrollDown{
+    font-family: 'Pangolin';
+    font-size: 12px;
+    padding: 10px;
+}
+.flecha{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}

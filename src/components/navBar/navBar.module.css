@@ -1,0 +1,165 @@
+.nav{
+    background-color: var(--mainColor);
+    border-bottom: solid 1px white;
+
+}
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--mainColor);
+    min-height: 70px;
+    color: var(--heroText);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo{
+    height: 100px;
+    width: 140px;
+    max-height: 100px;
+    max-width: 140px;
+}
+.itemswraper{
+    position: relative;
+   flex: 1;
+   justify-self: center;
+   padding-bottom: 80px;
+   margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+    .itemswraper{
+        height: 50%;
+    }
+   
+  
+}
+
+.button {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: none;
+}
+
+.button:focus{
+    border-style: none;
+}
+.button:active{
+    border-style: none;
+}
+.menu{
+    display: flex;
+    align-self: center;
+}
+@media (max-width: 768px) {
+    .wraperActive{
+        width: 100%;
+        justify-content: center;
+        height: 88vh;
+    }
+    .menu{
+        width: 90%;
+    }
+    .items{
+        border-bottom: solid #aaad9c 1px;
+    }
+    .linkItems:hover{
+        color: var(--hoverItemsNavbar)
+    }
+}
+
+@media (min-width: 1024px) {
+    .divButton{
+        display: none;
+    }
+    .itemswraper{
+        display: block;
+        padding-bottom: 0;
+        margin-top: 0;
+
+    }
+    .wraperActive{
+        padding: 0px;
+        display: block;
+        position: relative;
+        flex: 1;
+        justify-self: center;
+        padding-bottom: 80px;
+        margin-top: 32px;
+    }
+
+    .ulItems{
+        height: auto;
+        display: flex;
+    }
+    .items{
+        padding-left:  24px;
+        padding-right: 24px;
+        border-bottom: 0px;
+        text-decoration: none;
+    }
+    .navbar{
+        flex-direction: row;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.wraperActive{
+    padding-bottom: 48px;
+}
+@media (max-width: 768px) {
+    .wraperUnactive{
+        display: none;
+    }
+}
+.prueba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.ulItems{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* list-style-type: none;
+    gap: 30px; */
+}
+
+.items {
+    font-size: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+}
+.linkItems{
+    text-decoration: none;
+    color: var(--navbarText);
+}
+
+.linkItems:hover{
+   color: var(--hoverItemsNavbar)
+}
+
+
+
+/* Procesador: 1 Ghz
+RAM: 1 GB
+Disco: 5 GB
+Tarjeta de audio.
+Altavoces y micrófono
+Navegador: Google Chrome Versión 64, Firefox 60, Microsoft Edge, Safari 8, Opera 10.51
+Sistemas Operativos: Windows 7, Mac OSX 10.10, Linux/Unix 7
+Acrobat Reader 9
+Suite Office (brindada por la institución
+Adaptador Ethernet o Inalámbrico WIFI
+Ancho de banda mínimo de 1.5 Mbit/s */

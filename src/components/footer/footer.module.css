@@ -1,0 +1,15 @@
+.footer{
+    background-color: #741de7;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.heart{
+    width: 25px;
+    height: 25px;
+}

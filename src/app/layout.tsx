@@ -1,28 +1,29 @@
 import './globals.css'
-import NavBar from '@/components/navBar'
-import Footer from '@/components/footer'
+import NavBar from '@/components/navBar/navBar'
+import Footer from '../components/footer/Footer'
+import './fonts.css';
 
-import { Dosis, Concert_One, Balsamiq_Sans } from 'next/font/google'
+// import { Dosis, Concert_One, Balsamiq_Sans } from 'next/font/google'
  
-const dosis = Dosis({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-dosis',
-})
+// const dosis = Dosis({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-dosis',
+// })
 
-const concert_one = Concert_One({
-  subsets: ['latin'],
-  weight: '400',
-  display: 'swap',
-  variable: '--font-concert-one',
-})
+// const concert_one = Concert_One({
+//   subsets: ['latin'],
+//   weight: '400',
+//   display: 'swap',
+//   variable: '--font-concert-one',
+// })
 
-const balsamiq_sans = Balsamiq_Sans({
-  subsets: ['latin'],
-  weight: '400',
-  display: 'swap',
-  variable: '--font-balsamiq-sans',
-})
+// const balsamiq_sans = Balsamiq_Sans({
+//   subsets: ['latin'],
+//   weight: '400',
+//   display: 'swap',
+//   variable: '--font-balsamiq-sans',
+// })
 
 export const metadata = {
   title: 'Next.js',
@@ -35,17 +36,19 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <body>
-      <div className={`${dosis.variable} ${concert_one.variable} ${balsamiq_sans.variable} flex shadow-layout flex-col mx-auto justify-between min-h-screen max-w-screen-xl `}>
-      <header className=' w-full mn-h-30'>
-        <NavBar />
-      </header>
-      <main className='flex-1 flex content-start max-w-view '>{children}</main>
-      <footer className='bg-mafeGray'>
-       <Footer />
-      </footer>
-    </div>
+        <div className='layout'>
+          <header className='header' >
+            <NavBar />
+          </header>
+          <main className='main'>
+            {children}
+          </main>
+          <footer className='footer'>
+            <Footer />
+          </footer>
+        </div>
       </body>
     </html>
   )
