@@ -88,8 +88,6 @@
         position: relative;
         flex: 1;
         justify-self: center;
-        padding-bottom: 80px;
-        margin-top: 32px;
     }
 
     .ulItems{
@@ -109,9 +107,6 @@
     }
 }
 
-.wraperActive{
-    padding-bottom: 48px;
-}
 @media (max-width: 768px) {
     .wraperUnactive{
         display: none;
