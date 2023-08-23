@@ -1,25 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Dosis:wght@300;400;500;600;800&family=Pangolin&display=swap');
 :root {
-    --primaryButton: #d5f542;
-    --hoverItemsNavbar: #d5f542;
-    --mainColor: #741de7;
-    --textButton: #741de7;
-    --heroText: #ffffff;
+   --mainColor: #741de7;
+   --textNav: #ffffff;
+   --hoverNav: #d5f542;
+   --textHero: #ffffff;
+   --bgButton: #d5f542;
+   --textButton: #741de7;
+   --bgKnowme: #f3f3f3;
+   --frontendText: #ffffff;
+   --skillBg: #741de7;
+   --experinceBg: #f3f3f3;
+   --skillContainer: #f3f3f3;
+
+
+   
     --primaryText: #000000;
     --title: #741de7;
-    --navbarText: #ffffff;
-    --bgPage: #f3f3f3;
 }
 
  [data-theme='dark'] {
-    --primaryButton: #741de7;
-    --hoverItemsNavbar: #741de7;
-    --mainColor: #181818;
-    --textButton: #d5f542;
-    --heroText: #ffffff;
+   --mainColor: #181818;
+   --textNav: #d5f542;
+   --hoverNav: #741de7;
+   --textHero: #ffffff;
+   --bgButton: #741de7;
+   --textButton: #d5f542;
+   --bgKnowme: #454b59;
+   --frontendText: #d5f542;
+   --skillBg: #76679f;
+
+
+   
     --primaryText: #ffffff;
-    --navbarText: #d5f542;
-    --bgPage: #454b59;
 }
 
  *{

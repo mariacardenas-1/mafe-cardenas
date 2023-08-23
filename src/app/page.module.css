@@ -2,7 +2,33 @@
     background-color: var(--mainColor);
 }
 .knowMe{
-    background-color: var(--bgPage);
+    background-color: var(--bgKnowme);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.skillRank{
+    background-color: var(--skillBg);
+    padding: 60px 20px 60px 20px;
+}
+.experience{
+    background-color: var(--experinceBg);
+    padding: 40px;
+}
+@media(min-width: 768px){
+    .experience{
+        padding: 80px;
+
+    }
+}
+@media(min-width: 1024px){
+    .experience{
+        padding: 120px;
+
+    }
+}
+@media(min-width: 1240px){
+    .experience{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
 }

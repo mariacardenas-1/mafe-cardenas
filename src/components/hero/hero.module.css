@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     align-content: center;
     padding-top: 60px;
-    color: var(--heroText)
+    color: var(--textHero)
 }
 .profile{
     width: 250px;
@@ -35,7 +35,7 @@
     font-family: 'Pangolin';
     letter-spacing: 1px;
     padding: 15px;
-
+    color: var(--frontendText);
 }
 .iconBox{
     display: flex;
@@ -57,7 +57,7 @@
     margin-top: 30px;
     min-width: 200px;
     border-radius: 22px;
-    background-color: var(--primaryButton);
+    background-color: var(--bgButton);
     border: none;
     min-height: 45px;
     color: var(--textButton);

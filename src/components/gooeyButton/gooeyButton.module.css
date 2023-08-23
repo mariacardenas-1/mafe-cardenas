@@ -7,7 +7,7 @@
 .button {
     display: inline-block;
     text-align: center;
-    background: var(--primaryButton);
+    background: var(--bgButton);
     color: var(--textButton);
     font-weight: bold;
     padding: 1.18em 1.32em 1.03em;
@@ -28,7 +28,7 @@
     position: absolute;
     content: "";
     display: inline-block;
-    background: var(--primaryButton);
+    background: var(--bgButton);
     border-radius: 50%;
     transition: transform 1s ease;
     transform: scale(0);

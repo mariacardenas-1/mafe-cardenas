@@ -8,7 +8,7 @@
     margin: 0 auto;
     background-color: var(--mainColor);
     min-height: 70px;
-    color: var(--heroText);
+    color: var(--textNav);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +68,7 @@
         border-bottom: solid #aaad9c 1px;
     }
     .linkItems:hover{
-        color: var(--hoverItemsNavbar)
+        color: var(--hoverNav)
     }
 }
 
@@ -138,11 +138,11 @@
 }
 .linkItems{
     text-decoration: none;
-    color: var(--navbarText);
+    color: var(--textNav);
 }
 
 .linkItems:hover{
-   color: var(--hoverItemsNavbar)
+   color: var(--hoverNav)
 }
 
 

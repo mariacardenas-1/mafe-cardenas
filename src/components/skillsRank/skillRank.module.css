@@ -1,0 +1,19 @@
+.container {
+    max-width: 280px;
+    margin: 0 auto;
+    background: var(--skillContainer);
+    padding: 10px;
+    border-radius: 8px;
+    color:  var(--primaryText);
+}
+
+@media (min-width: 768px){
+    .container{
+        max-width: 520px;
+    }
+}
+@media (min-width: 1024px){
+    .container{
+        max-width: 600px;
+    }
+}

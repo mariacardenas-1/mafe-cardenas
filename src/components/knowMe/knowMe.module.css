@@ -1,5 +1,5 @@
 .knowMe{
-    background-color: var(--bgPage);
+    background-color: var(--bgKnowme);
     color: var(--primaryText);
     font-size: 18px;
     display: flex;
@@ -38,7 +38,7 @@
 .description{
     text-align: start;
     background-color: white;
-    padding: 40px;
+    padding: 20px;
     border-radius: 20px;
 }
 .profile{
